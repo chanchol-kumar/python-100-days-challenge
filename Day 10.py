@@ -1,8 +1,6 @@
 # variable = input()
-
 n = input("Enter a value : ")
 print(n)
-
 
 a = input("Enter a value : ")
 b = input("Enter a value : ")
