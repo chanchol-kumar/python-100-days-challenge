@@ -227,3 +227,55 @@ a = int(input("Enter an integer value: "))
 b = int(input("Enter an integer value: "))
 print(a + b) # a = 1; b = 2; output = 3
 ```
+
+## Day 11 : String in python
+
+- Use double quotation
+```python
+text = "He said, \"I am a happy person.\" "
+print(text)
+```
+
+- use single quotation
+```python
+text = 'He said, "I am a happy person." '
+print(text)
+```
+
+- multiple line string (use """ """)
+```python
+text ="""Hey,how are you?
+I am fine and You?
+I am fine also."""
+print(text)
+```
+
+- multiple line string (use ''' ''')
+```python
+text ='''Hey,how are you?
+I am fine and You?
+I am fine also.'''
+print(text)
+```
+
+- Accessing character of a string
+```python
+str = "Harry"
+print(str)      # Calculate string length
+print(len(str)) # length = 4
+print(str[0])   # H
+print(str[1])   # a
+print(str[2])   # r
+print(str[3])   # r
+print(str[4])   # y
+#print(str[5]) # its not working.because of its length
+```
+
+-  Accessing character of a string using for loop
+```python
+country = "Bangladesh"
+for charcter in country:
+    print(charcter)
+```
+
+
